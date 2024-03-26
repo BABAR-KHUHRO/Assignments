@@ -29,7 +29,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -39,7 +39,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -50,7 +50,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -62,7 +62,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -75,7 +75,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
     {
@@ -84,7 +84,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -94,7 +94,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -105,7 +105,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -117,7 +117,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -130,7 +130,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
     {
@@ -139,7 +139,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -149,7 +149,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -160,7 +160,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -172,7 +172,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -185,7 +185,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
     {
@@ -194,7 +194,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -204,7 +204,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/1.jpg",
+        p_image: "images/1.jfif",
         p_category: "Men"
     },
 
@@ -215,7 +215,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/2.png",
+        p_image: "images/2.jfif",
         p_category: "Women"
     },
 
@@ -227,7 +227,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/2.png",
+        p_image: "images/2.jfif",
         p_category: "Women"
     },
 
@@ -240,7 +240,7 @@
         p_desc: "Best Quality Provider",
         p_qty: 10,
         p_price: 2300,
-        p_image: "images/2.png",
+        p_image: "images/2.jfif",
         p_category: "Women"
     }
 
@@ -250,18 +250,49 @@
 var all_categories=``
 var m_category = ``;
 var w_category=``;
-for (var i in product) {
-if (product[i].p_category == "Men")
+// for (var i in product) {
+// if (product[i].p_category == "Men")
+// {
+//     m_category += `
+//         <div class="cart">
+//             <div class="img">
+//                 <img src="${product[i].p_image}" alt="">
+//             </div>
+//             <div class="detail">
+//                 <p>Product Name: ${product[i].p_name}</p>
+//                 <p>Price : ${product[i].p_price}</p>
+//                 <p>Category: ${product[i].p_category}</p>
+//                 <button>Detail</button>
+//             </div>
+//         </div>
+//     `
+// }else{
+//     w_category+= `
+//     <div class="cart">
+//     <div class="img">
+//         <img src="${product[i].p_image}" alt="">
+//     </div>
+//     <div class="detail">
+//         <p>Product Name: ${product[i].p_name}</p>
+//         <p>Price : ${product[i].p_price}</p>
+//         <p>Category: ${product[i].p_category}</p>
+//         <button>Detail</button>
+//     </div>
+// </div>
+// `}}
+
+for (var i of product) {
+if (i.p_category == "Men")
 {
     m_category += `
         <div class="cart">
             <div class="img">
-                <img src="${product[i].p_image}" alt="">
+                <img src="${i.p_image}" alt="">
             </div>
             <div class="detail">
-                <p>Product Name: ${product[i].p_name}</p>
-                <p>Price : ${product[i].p_price}</p>
-                <p>Category: ${product[i].p_category}</p>
+                <p>Product Name: ${i.p_name}</p>
+                <p>Price : ${i.p_price}</p>
+                <p>Category: ${i.p_category}</p>
                 <button>Detail</button>
             </div>
         </div>
@@ -269,17 +300,18 @@ if (product[i].p_category == "Men")
 }else{
     w_category+= `
     <div class="cart">
-    <div class="img">
-        <img src="${product[i].p_image}" alt="">
-    </div>
-    <div class="detail">
-        <p>Product Name: ${product[i].p_name}</p>
-        <p>Price : ${product[i].p_price}</p>
-        <p>Category: ${product[i].p_category}</p>
-        <button>Detail</button>
-    </div>
-</div>
+            <div class="img">
+                <img src="${i.p_image}" alt="">
+            </div>
+            <div class="detail">
+                <p>Product Name: ${i.p_name}</p>
+                <p>Price : ${i.p_price}</p>
+                <p>Category: ${i.p_category}</p>
+                <button>Detail</button>
+            </div>
+        </div>
 `}}
+
 all_categories += m_category+w_category
 document.getElementById("all").innerHTML = all_categories
 document.getElementById("men").innerHTML = m_category
